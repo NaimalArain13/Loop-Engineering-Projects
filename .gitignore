@@ -3,3 +3,6 @@ project-4-fix-loop/
 
 # project-5 is its own throwaway repo too (opens PRs, same reason as project-4)
 project-5-codify-body/
+
+# project-6 is its own throwaway repo too (GitHub PR-trigger routine needs a real connected repo)
+project-6-doorbell-loop/
