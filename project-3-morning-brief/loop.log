@@ -1,0 +1,1 @@
+[2026-08-14T19:54:32Z] NEEDS HUMAN: expected progress file 'project-3-morning-brief/progress-log.md' not found. Cannot determine last_seen_commit; loop has no memory to work from. A human must confirm the correct file path and re-run.

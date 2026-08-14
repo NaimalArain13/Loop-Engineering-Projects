@@ -1,6 +1,6 @@
 # Morning Brief — Progress Log
 
-last_seen_commit: 0ac3c455abd2aa57d87c412323cc39ea222ab478
+last_seen_commit: 759f0d02dd9db2b957cfcd8243e8d4ba699408ee
 
 ## Entries
 
@@ -20,3 +20,10 @@ summary.
 2 commits found: the Project 3 scaffold itself landed (progress.md,
 README.md for this spine exercise), followed by a commit adding a
 screenshot documenting a schedule-simulation run.
+
+### 2026-08-15 (run 4)
+4 commits found: a Run 3 diff screenshot was added to project-3, then
+Project 4 gained a session 2 summary alongside a parent .gitignore entry
+for its separate repo, and finally two commits updated the root
+.gitignore to exclude the project-5 and project-6 directories from this
+parent repo.
