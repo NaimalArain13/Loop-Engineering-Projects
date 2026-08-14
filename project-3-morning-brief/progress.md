@@ -1,6 +1,6 @@
 # Morning Brief — Progress Log
 
-last_seen_commit: 26deae547f741bd2290b4f2567100c159b502e78
+last_seen_commit: 0ac3c455abd2aa57d87c412323cc39ea222ab478
 
 ## Entries
 
@@ -15,3 +15,8 @@ until pytest's exit code confirmed all tests passed.
 No new commits since last_seen_commit (26deae5). HEAD is unchanged, so
 there is nothing to report this run — correctly not repeating run 1's
 summary.
+
+### 2026-08-14 (run 3)
+2 commits found: the Project 3 scaffold itself landed (progress.md,
+README.md for this spine exercise), followed by a commit adding a
+screenshot documenting a schedule-simulation run.
