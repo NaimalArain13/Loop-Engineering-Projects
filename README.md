@@ -2,8 +2,10 @@
 
 Hands-on practice projects from the Loop Engineering Crash Course
 (https://agentfactory.panaversity.org/docs/loop-engineering-crash-course#practice-projects).
-Eight projects, easy to hard, covering all six parts of a loop across all
-four heartbeats: in-session, conditional, scheduled, and event-driven.
+Eight core projects, easy to hard, covering all six parts of a loop
+across all four heartbeats: in-session, conditional, scheduled, and
+event-driven. Beyond those eight, the course's appendix adds further
+practice projects (starting with Project 9 below).
 
 ## Projects
 
@@ -17,8 +19,9 @@ four heartbeats: in-session, conditional, scheduled, and event-driven.
 | 6 | [The doorbell loop](./project-6-doorbell-loop-docs) — the repo reviews its own pull requests, unprompted | Event-driven, connectors | [Own repo](https://github.com/NaimalArain13/project-6-doorbell-loop) |
 | 7 | [Break it on purpose](./project-7-break-it-on-purpose) — sabotage the Project 3 loop, then diagnose the failure from the spine alone | Observability, cost | This repo |
 | 8 | [Your own daily loop](./project-8-your-own-daily-loop) — the full six-part loop on a real chore, run unattended for a week (capstone) | All six parts | [Own repo](https://github.com/NaimalArain13/Morning-Maintenance-Loop) |
+| 9 | [Rehearse a routine for free](./project-9-rehearse-routine-docs) — prove a prompt with one-off runs before committing it to a repeating schedule | A1, A3, A5 (reading runs) | [Own repo](https://github.com/NaimalArain13/project-9-rehearse-routine) |
 
-## Why Projects 4, 5, and 6 live in their own repos
+## Why Projects 4, 5, 6, and 9 live in their own repos
 
 Projects 1, 2, 3, 7, and 8's docs are plain exercises that read and write
 files inside this repo — a normal subfolder is enough. Projects 4, 5, and 6
@@ -35,10 +38,14 @@ just on the local filesystem —
   repo-level configuration — they can't be scoped to "just this
   subfolder" of a bigger repo, so the doorbell loop needs a repo of its
   own to fire on.
+- **Project 9** needs a Claude Code **Routine**, which clones a real
+  GitHub repo fresh on every run — a subfolder of this parent monorepo
+  isn't something a Routine can be pointed at on its own.
 
-So each of the three got its own **throwaway GitHub repo** (see the
-`.gitignore` at this level, which excludes their local folders from this
-parent repo's tracking), and a small pointer README — `project-4-fix-loop-docs/`,
-`project-5-codify-body-docs/`, `project-6-doorbell-loop-docs/` — was added
-here so they're still discoverable from this index without pulling their
-full history and PR churn into the parent repo.
+So each got its own **throwaway GitHub repo** (see the `.gitignore` at
+this level, which excludes their local folders from this parent repo's
+tracking), and a small pointer README — `project-4-fix-loop-docs/`,
+`project-5-codify-body-docs/`, `project-6-doorbell-loop-docs/`,
+`project-9-rehearse-routine-docs/` — was added here so they're still
+discoverable from this index without pulling their full history and PR
+churn into the parent repo.

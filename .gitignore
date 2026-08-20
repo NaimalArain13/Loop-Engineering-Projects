@@ -6,3 +6,7 @@ project-5-codify-body/
 
 # project-6 is its own throwaway repo too (GitHub PR-trigger routine needs a real connected repo)
 project-6-doorbell-loop/
+
+# project-9 is its own throwaway repo too (a Routine needs a real
+# connected GitHub repo to clone and fire one-off runs against)
+project-9-rehearse-routine/
