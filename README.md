@@ -20,8 +20,9 @@ practice projects (starting with Project 9 below).
 | 7 | [Break it on purpose](./project-7-break-it-on-purpose) — sabotage the Project 3 loop, then diagnose the failure from the spine alone | Observability, cost | This repo |
 | 8 | [Your own daily loop](./project-8-your-own-daily-loop) — the full six-part loop on a real chore, run unattended for a week (capstone) | All six parts | [Own repo](https://github.com/NaimalArain13/Morning-Maintenance-Loop) |
 | 9 | [Rehearse a routine for free](./project-9-rehearse-routine-docs) — prove a prompt with one-off runs before committing it to a repeating schedule | A1, A3, A5 (reading runs) | [Own repo](https://github.com/NaimalArain13/project-9-rehearse-routine) |
+| 10 | [The secrets drill](./project-10-secrets-drill-docs) — fail the `.env` way once, on purpose, so it never happens by accident on a real credential | A4 (secrets), A2 (the environment) | [Own repo](https://github.com/NaimalArain13/project-10-secrets-drill) |
 
-## Why Projects 4, 5, 6, and 9 live in their own repos
+## Why Projects 4, 5, 6, 9, and 10 live in their own repos
 
 Projects 1, 2, 3, 7, and 8's docs are plain exercises that read and write
 files inside this repo — a normal subfolder is enough. Projects 4, 5, and 6
@@ -41,11 +42,16 @@ just on the local filesystem —
 - **Project 9** needs a Claude Code **Routine**, which clones a real
   GitHub repo fresh on every run — a subfolder of this parent monorepo
   isn't something a Routine can be pointed at on its own.
+- **Project 10** also needs a Claude Code **Routine** — same reason as
+  Project 9 — plus a real, `.gitignore`-excluded `.env` file and the
+  Routine's own environment-variables panel to demonstrate the
+  failure/success contrast; that's repo-level configuration a monorepo
+  subfolder can't carry.
 
 So each got its own **throwaway GitHub repo** (see the `.gitignore` at
 this level, which excludes their local folders from this parent repo's
 tracking), and a small pointer README — `project-4-fix-loop-docs/`,
 `project-5-codify-body-docs/`, `project-6-doorbell-loop-docs/`,
-`project-9-rehearse-routine-docs/` — was added here so they're still
-discoverable from this index without pulling their full history and PR
-churn into the parent repo.
+`project-9-rehearse-routine-docs/`, `project-10-secrets-drill-docs/` —
+was added here so they're still discoverable from this index without
+pulling their full history and PR churn into the parent repo.
